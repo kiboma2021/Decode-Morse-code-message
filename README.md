@@ -1,6 +1,11 @@
 # Decode morse code
 This program decodes a morse code message.
 
+![decode_message1](https://user-images.githubusercontent.com/93031593/185784321-ab956f36-cea3-4189-b50b-859302d06683.png)
+
+![decode_message](https://user-images.githubusercontent.com/93031593/185784322-2973accb-eb33-44f0-84ae-f424b578dfed.png)
+
+
 ## Built With:
 - Ruby
 
