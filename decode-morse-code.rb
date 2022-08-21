@@ -44,3 +44,24 @@ def decode_char(code)
 end
 
 decode_char(".-")
+
+def decode_word(word)
+  morse_char=word.split(' ')
+  decorded_word=''
+  morse_char.each do |morse_cod|
+    decorded_word += decode_char(morse_cod)
+  end
+  decorded_word
+end
+
+decode_word("-- -.--")
+
+def decode(message)
+  morse_message = message.split('   ')
+  decoded_message=''
+  morse_message.each do |decode_msg|
+    decoded_message += decode_word(decode_msg) + ' '
+  end
+  decoded_message
+end
+
